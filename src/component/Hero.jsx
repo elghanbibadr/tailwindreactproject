@@ -1,9 +1,9 @@
 import React from 'react';
-import { robot,discount} from '../assets';
-function Hero(props) {
+import { robot, discount, arrowUp } from '../assets';
+function Hero() {
     return (
         <section className='hero lg:px-14 mt-16 md:grid   grid-cols-2 gap-7 p-4 justify-center '>
-            
+
             <div className='hero__content md:w-full  row-start-1  place-self-center'>
                 <div className='hero__discountBar flex  justify-between items-center px-4 py-1 max-w-fit'>
                     <img src={discount} alt="discount icon" />
@@ -20,7 +20,10 @@ function Hero(props) {
             <div className='hero__img-box my-6 col-start-2 col-end-3'>
                 <img className='hero__img 	 w-full md: col-start-2 col-end-4' src={robot} alt="robott image" />
             </div>
-
+            <div className='hero__getStarted border-sky-500	border-2 w-36 h-36 '>
+                <h3 className='hero__getStarted-title capitalize  font-bold'>get Started</h3>
+                <img className='hero__getStarted-icon ' src={arrowUp} />
+            </div>
         </section>
     );
 }
