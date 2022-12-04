@@ -1,9 +1,11 @@
 import { useState } from 'react'
-
+import Nav from './component/Nav'
 function App() {
 
   return (
-   <h1 className='text-7xl underline'>he</h1>
+    <>
+    <Nav/>
+    </>
   )
 }
 
