@@ -17,12 +17,12 @@ function Hero() {
                     We examine annual percentage rates, annual fees.
                 </p>
             </div>
-            <div className='hero__img-box my-6 col-start-2 col-end-3'>
+            <div className='hero__img-box md:relative my-6 col-start-2 col-end-3'>
                 <img className='hero__img 	 w-full md: col-start-2 col-end-4' src={robot} alt="robott image" />
             </div>
-            <div className='hero__getStarted border-sky-500	border-2 w-36 h-36 '>
-                <h3 className='hero__getStarted-title capitalize  font-bold'>get Started</h3>
-                <img className='hero__getStarted-icon ' src={arrowUp} />
+            <div className='hero__getStarted  mx-auto    border-sky-500	border-2 w-36 h-36 flex flex-col justify-center items-center cursor-pointer md:absolute right-10 left-0 lg:right-20 bottom-20  '>
+                <h3 className='hero__getStarted-title capitalize  font-bold'>get <br/> Started</h3>
+                <img className='hero__getStarted-icon relative left-3 bottom-11' src={arrowUp} />
             </div>
         </section>
     );
