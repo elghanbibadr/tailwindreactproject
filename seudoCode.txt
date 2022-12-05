@@ -1,0 +1,10 @@
+-about the features section
+-create a wrapper features section
+-the wrapper will contains section componenet will be
+positioned inside their grid container
+-the first one is a featureDesc compoenenet will be repated 3 time 
+with a little different
+2 of featureDescGetStarted that would be contains a 
+featureDesc and a button 
+and the other one will be contains a featureDesc and 
+appResiurce
