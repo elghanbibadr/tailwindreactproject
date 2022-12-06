@@ -1,13 +1,20 @@
 import React from 'react';
-
-function FeaturesGetApp(props) {
+import FeaturesDesc from './FeaturesDesc';
+import { apple } from '../assets';
+import { google } from '../assets';
+function FeaturesGetAppBox(props) {
     return (
-        <div className='bg-black'>
-            <img src={props.image} alt='app icon image' />
-             <p>{props.text}</p>
-             <h4>{props.title}</h4>
+        <div className='featuresGetApp self-center'>
+            <FeaturesDesc
+                title={props.title}
+                text={props.text}
+            />
+            <div className=' flex gap-4'>
+                <img  src={apple} alt='apple icon image' />
+                <img  src={google} alt='google icon image' />
+            </div>
         </div>
     );
 }
 
-export default FeaturesGetApp;
+export default FeaturesGetAppBox;
