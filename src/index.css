@@ -54,8 +54,33 @@ border-radius: 10px !important;
 
 @media  screen and (min-width:680px) and (max-width:960px) {
   .features-container{
-     grid-template-rows: repeat(6,350px);
+     grid-template-rows: repeat(2,350px) 1fr repeat(3,350px);
      row-gap: 3rem !important;
   }
+  
+}
+
+
+.perkItem :last-child{
+  padding: 12px;
+  border-radius: 10px;
+  max-width: 400px;
+  
+}
+.perkItem img{
+  background: rgba(9, 151, 124, 0.1);
+}
+.perkItem.gray-bg{
+  padding: 10px;
+  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%) !important;
+
+}
+.bg-transparent{
+  background: transparent !important;
+}
+
+
+.perkItem p{
+  line-height: 22px !important;
   
 }
