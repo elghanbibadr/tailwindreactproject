@@ -3,6 +3,7 @@ import Hero from './component/Hero'
 import Nav from './component/Nav'
 import Records from './component/records'
 import Features from './component/Features'
+import Callout from './component/Callout'
 function App() {
 
   return (
@@ -11,6 +12,7 @@ function App() {
     <Hero/>
     <Records/>
     <Features/>
+    <Callout/>
     </>
   )
 }
