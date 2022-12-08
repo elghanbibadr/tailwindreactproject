@@ -4,6 +4,7 @@ import Nav from './component/Nav'
 import Records from './component/records'
 import Features from './component/Features'
 import Callout from './component/Callout'
+import Sponsors from './component/Sponsors'
 function App() {
 
   return (
@@ -13,6 +14,7 @@ function App() {
     <Records/>
     <Features/>
     <Callout/>
+    <Sponsors/>
     </>
   )
 }
