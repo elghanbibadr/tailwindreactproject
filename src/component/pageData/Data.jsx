@@ -18,7 +18,7 @@ const calloutData=[
     },
     {
     id:3,
-    desc:'It is usually people in the money business, finance, and international trade that are really rich.',
+    desc:'It is usually people in the money business, finance .If youre lucky to have it',
     customerName:'Kenn Gallagher',
     customerImage:three,
     customerrole:'Founder & Leader'

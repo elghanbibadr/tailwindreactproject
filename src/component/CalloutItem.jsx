@@ -2,7 +2,7 @@ import React from 'react'
 
 const CalloutItem = (props) => {
   return (
-    <article className='calloutItem w-3/4 mx-auto md:w-full mb-6 p-4 cursor-pointer hover:bg-stone-600 rounded-3xl'>
+    <article className='calloutItem w-3/4 mx-auto md:w-full mb-6 p-4 cursor-pointer gray-bg rounded-3xl'>
        <img src={props.image}/>
        <p className='py-8'>{props.desc}</p>
        <div className='calloutItem-footer'>

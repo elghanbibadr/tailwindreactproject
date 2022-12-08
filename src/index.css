@@ -72,8 +72,23 @@ border-radius: 10px !important;
 }
 .perkItem.gray-bg{
   padding: 10px;
-  background: linear-gradient(153.47deg, rgba(255, 255, 255, 0) -341.94%, #14101D 95.11%) !important;
-
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  
+}
+.gray-bg{
+  padding: 10px;
+    background: linear-gradient(
+      144.39deg,
+      #ffffff -278.56%,
+      #6d6d6d -78.47%,
+      #11101d 91.61%
+    );
+  
 }
 .bg-transparent{
   background: transparent !important;
