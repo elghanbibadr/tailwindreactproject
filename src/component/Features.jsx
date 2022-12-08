@@ -17,10 +17,10 @@ function Features(props) {
             title="Easily control your billing & invoicing."
             text="Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat."
             />
-            <FeaturesImage   image={card}/>
             <FeaturesGetStarted 
             title="Easily control your billing & invoicing."
              text="Elit enim sed massa etiam. Mauris eu adipiscing ultrices ametodio aenean neque. Fusce ipsum orci rhoncus aliporttitor integer platea placerat."/>
+              <FeaturesImage   image={card}/>
         </div>
     );
 }
