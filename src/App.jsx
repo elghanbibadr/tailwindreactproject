@@ -6,6 +6,7 @@ import Features from './component/Features'
 import Callout from './component/Callout'
 import Sponsors from './component/Sponsors'
 import CTA from './component/CTA'
+import Footer from './component/Footer'
 function App() {
 
   return (
@@ -17,6 +18,7 @@ function App() {
     <Callout/>
     <Sponsors/>
     <CTA/>
+    <Footer/>
     </>
   )
 }
