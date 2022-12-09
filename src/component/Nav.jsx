@@ -1,26 +1,10 @@
 import { useState }from 'react';
+import { navLinks } from '../constant';
 import { close, logo, menu } from '../assets/'
-function Nav(props) {
+function Nav() {
     const [active, setActive] = useState("Home");
-    const [toggle, setToggle] = useState(false);
-    const navLinks = [
-        {
-          id: "home",
-          title: "Home",
-        },
-        {
-          id: "features",
-          title: "Features",
-        },
-        {
-          id: "product",
-          title: "Product",
-        },
-        {
-          id: "clients",
-          title: "Clients",
-        },
-      ];
+     const [toggle, setToggle] = useState(false);
+
     return(
         <nav className="w-full flex p-6 justify-between items-center navbar">
         <img src={logo} alt="hoobank" className="w-[124px] h-[32px]" />
@@ -50,9 +34,9 @@ function Nav(props) {
           <div
             className={`${
               !toggle ? "hidden" : "flex"
-            } p-6 bg-black-gradient absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
+            } p-6 gray-bg absolute top-20 right-0 mx-4 my-2 min-w-[140px] rounded-xl sidebar`}
           >
-            <ul className="list-none flex justify-end items-start flex-1 flex-col">
+            <ul className="list-none flex justify-end items-start flex-1  flex-col">
               {navLinks.map((nav, index) => (
                 <li
                   key={nav.id}
